@@ -12,6 +12,12 @@ pipeline {
                 echo 'Deploying....'
             }
         }
+
+    stage('Pitagoras') {
+            steps {
+                echo 'Pitagoras teve a casa algada e o guarda roupa quebrou a porta....'
+            }
+        }
     }
 }
 
